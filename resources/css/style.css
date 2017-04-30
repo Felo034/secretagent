@@ -1,5 +1,88 @@
 html,
 body {
   background-color: black;
+  font-family: Helvetica, sans-serif;
   color: white;
+}
+
+body {
+  height: 1166px;
+  width: 694px;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  height: 24px;
+  width: 564px;
+  padding: 12px 8px;
+
+}
+
+.logo img {
+  height: 24px;
+  width: 36.438px
+  padding-right: 15px;
+}
+
+.logo span {
+  padding-left: 15px;
+}
+
+/* Main Banner */
+  .main {
+    height: 400px;
+    width: 694px;
+    background-image: url("../photo/moto.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .headline {
+    display: block;
+    background-color: black;
+    padding: 32px 48px;
+    width: 320px;
+  }
+
+h1 {
+  font-weight: bold;
+  font-size: 32px;
+  margin: 8px 0px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 21.28px 0px;
+}
+
+/* Nav */
+nav {
+  background-color: rgb(176,0,36);
+  height: 48px;
+  width: 694px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Grid */
+
+
+/* Location */
+
+
+/* Hour */
+
+
+/* Footer */
+footer {
+  display: block;
+  height: 22px;
+  width: 572px;
+  padding: 80px 0px;
+  margin-top: 64px;
 }
